@@ -6,7 +6,7 @@
 echo -n 'password' | iconv -t utf16le | openssl md4
 ```
 
-## Locations
+## File Locations
 ```
 /etc/wpa_supplicant/wpa_supplicant.conf
 ```
