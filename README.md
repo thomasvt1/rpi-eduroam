@@ -3,7 +3,7 @@
 
 ## To create hash
 ```
-echo -n 'password' | iconv -t utf16le | openssl md4 > hash.txt
+echo -n 'password' | iconv -t utf16le | openssl md4
 ```
 
 ## Locations
