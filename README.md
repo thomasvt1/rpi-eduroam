@@ -8,3 +8,6 @@ echo -n 'password' | iconv -t utf16le | openssl md4 > hash.txt
 /etc/wpa_supplicant/wpa_supplicant.conf
 
 /etc/network/interfaces
+
+## Test network
+wpa_supplicant -i wlan0 -D wext -c /etc/wpa_supplicant/wpa_supplicant.conf -d
